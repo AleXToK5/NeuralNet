@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('bert_classifier.urls')),
+    path('dialog_bot/', include('dialog_bot.urls')),
 ]
